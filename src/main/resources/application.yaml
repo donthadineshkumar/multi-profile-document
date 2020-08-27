@@ -1,0 +1,18 @@
+creds:
+  first: default value
+
+---
+
+spring:
+  profiles: showcase
+
+creds:
+  first: dev value
+
+---
+
+spring:
+  profiles: dev & mobile
+
+creds:
+  first: dev-mobile value
